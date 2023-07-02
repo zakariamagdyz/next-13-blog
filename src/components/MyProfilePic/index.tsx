@@ -7,7 +7,7 @@ function MyProfilePic() {
       <Image
         priority
         src="/images/zakaria.jpeg"
-        alt="Picture of the author"
+        alt="Zakaria Magdy"
         width={200}
         height={200}
         className="mx-auto mt-8 rounded-full border-4 border-black shadow-black drop-shadow-xl dark:border-slate-500"
