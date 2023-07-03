@@ -1,3 +1,7 @@
+import Posts from "@/components/Posts"
+
+export const revalidate = 60 // revalidate this page every 60 seconds
+
 export default function Home() {
   return (
     <main className="mx-auto px-6">
@@ -7,6 +11,7 @@ export default function Home() {
           I&apos;m <span className="font-bold">Zakaria</span>
         </span>
       </h1>
+      <Posts />
     </main>
-  );
+  )
 }
